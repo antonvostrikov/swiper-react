@@ -40,3 +40,41 @@ a {
     color-scheme: dark;
   }
 }
+
+.swiper {
+  width: 700px;
+}
+
+.slide-thumb {
+  width: 100px!important;
+  height: 100px!important;
+}
+
+.slider {
+  padding: 30px 0 0 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.swiper-main {
+  width: 500px;
+  height: 500px;
+  margin-left: 10px!important;
+  margin-right: 0!important;
+}
+
+.swiper-main .swiper-wrapper {
+  height: 500px;
+}
+
+.swiper-thumbs {
+  height: 500px;
+  width: 100px;
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+/* .swiper-vertical .swiper-wrapper {
+  justify-content: space-between;
+} */
